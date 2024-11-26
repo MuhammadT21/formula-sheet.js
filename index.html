@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="html1">
+
+
+      <p><button id="btnlight">Light mode</button><button id="btndark">Dark mode</button></p>
+    <h1>Math 10C Formula Sheet</h1>
+
+    <div class="search-bar">
+      <input type="text" placeholder="formula" /> <button>search</button>
+    </div>
+
+    <!--Trigonomentry-->
+
+    <hr />
+
+    <h3>Trigonometry Formula</h3>
+
+  <div id="formula-p">    
+    <li>sin formula</li>
+    <li>cos formula</li>
+    <li>tan formula</li>
+    <li>pythagoras theorem</li>
+  </div>
+
+
+
+   
+    <table id="table">
+      <tr>
+        <td id="table first">Formula</td>
+        <td id="table bottom">Example</td>
+        <td id="table last">Calculator</td>
+      </tr>
+
+      <tr>
+        <td colspan="3">
+          <a href="https://en.wikipedia.org/wiki/Trigonometry" target="_blank"
+            ><img src="img/sin_cos_tan-removebg-preview.png" alt="sin cos tan"
+          /></a>
+          <p>(click on the image to learn more)</p>
+        </td>
+      </tr>
+
+      <tr  id="">
+        <td>          <table id="sin-table">
+          <tr>
+            <td rowspan="2">sinθ=</td>
+            <td id="opp">opposite</td>
+          </tr>
+
+          <tr>
+            <td>hypotenuse</td>
+          </tr>
+        </table></td>
+        <td>
+          <p>sin35°=21/x</p>
+          x=21/sin35°, x=36.6
+
+          <td>
+            <p>opp:<input id="opp1"></p>
+            <p>hyp:<input id="hyp1"></p>
+            <button id="btn1">Caluculate</button>
+            <p>the anwser is <span id="output1">---</span>°</p>
+          </td>
+
+        </td>
+      </tr>
+      <tr id="">
+        <td><p>          <table id="sin-table">
+          <tr>
+            <td rowspan="2">cosθ=</td>
+            <td id="opp">adjacent</td>
+          </tr>
+
+          <tr>
+            <td>hypotenuse</td>
+          </tr>
+        </table></p></td>
+        <td>
+          <p>cos32°=15/x</p>
+          xcos32°=15, x=15/cos32°, x=17.7
+
+        </td>
+
+        <td>
+          <p>adj:<input id="adj2"></p>
+          <p>hyp:<input id="hyp2"></p>
+          <button id="btn2">Caluculate</button>
+          <p>the anwser is <span id="output2">---</span>°</p>
+        </td>
+      </tr>
+      <tr>
+        <td><p>          <table id="sin-table">
+          <tr>
+            <td rowspan="2">tanθ=</td>
+            <td id="opp">opposite</td>
+          </tr>
+
+          <tr>
+            <td>adjacent</td>
+          </tr>
+        </table></p></td>
+        <td>
+          <p>tanA=8/5</p>
+          A= tan<span class="exponent"><sup>-1</sup></span>(8/5), A=58°
+
+        </td>
+
+        <td>
+          <p>opp:<input id="opp3"></p>
+          <p>adj:<input id="adj3"></p>
+          <button id="btn3">Caluculate</button>
+          <p>the anwser is <span id="output3">---</span>°</p>
+        </td>
+      </tr>
+
+<!--Pythagoras theoram-->
+
+      <tr>
+        <td><p>a<sup>2</sup>+b<sup>2</sup> =c<sup>2</sup></p></td>
+        <td>
+          <p>30<sup>2</sup>+2<sup>2</sup>=c<sup>2</sup></p>
+          30<sup>2</sup>+2<sup>2</sup>=906.01, c=√906.01 √906.01=30.1, c=30.1
+        </td>
+        <td>
+          <p>a:<input id="square1" type="number"></p>
+          <p>b:<input id="square2"></p>
+          <button id="btn4">Caluculate</button>
+          <p>the anwser is <span id="output4">---</span></p>
+        </td>
+      </tr>
+
+
+  </body>
+</html>
+
+

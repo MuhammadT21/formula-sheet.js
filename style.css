@@ -1,0 +1,107 @@
+html {
+  text-align: center;
+  background-color: greenyellow;
+  font-family: "Times New Roman";
+  background: url("img/geometry.jpg");
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body {
+  margin: 0px auto;
+  width: 700px;
+  background: white;
+  border: solid 2px grey;
+  border-radius: 15px;
+}
+
+.exponent {
+  font-size: small;
+  font-family: "Times New Roman";
+}
+
+button:hover {
+  background-color: yellow;
+  transition: color 10s;
+}
+
+/*table(s)*/
+
+p {
+  color: black;
+}
+
+td,
+th {
+  border: solid 3px;
+  border-style: groove;
+  color: black;
+}
+
+tr {
+  margin: auto;
+}
+
+table {
+  margin: auto;
+  background: white;
+}
+
+.search-bar {
+  overflow-anchor: 2;
+  background-color: #e9e9e9;
+  transition: green;
+}
+
+a:hover {
+  background-color: yellow;
+  font-size: 13px;
+}
+
+button {
+  border-radius: 15px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+h1 {
+  text-shadow: 5px 5px 5px gray;
+}
+
+#sin-table {
+  border-collapse: collapse;
+}
+
+#sin-table td {
+  border: none;
+}
+
+#opp {
+  border-bottom: 2px solid grey;
+}
+
+#formula-p {
+  text-align: center;
+}
+button {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#btnlight {
+  text-align: left;
+}
+
+#btndark {
+  text-align: right;
+}
+
+.darkmode1 {
+  color: white;
+  background-color: black;
+}
+
+/* text-shadow: adds shadow to the characters */
+/* border-style: changes the borders style from lines to dashes or what ever you want (not sure but i think this was not shown in class) */
